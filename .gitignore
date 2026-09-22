@@ -1,0 +1,35 @@
+# ── STM32CubeIDE 빌드 산출물 ──────────────────
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# ── Eclipse / CubeIDE 로컬 상태 (PC마다 다름) ──
+.metadata/
+RemoteSystemsTempFiles/
+*.launch
+.settings/org.eclipse.cdt.core.prefs
+
+# ── CubeMX 내부 기록 / 백업 ───────────────────
+.mxproject
+*.ioc.bak
+*.ioc.orig
+
+# ── OS / 에디터 ──────────────────────────────
+.DS_Store
+*~
+*.swp
+.vscode/
+.idea/
+
+# ── demo video 는 Google Drive 링크로만 제출 ──
+*.mp4
+*.mov
+*.mkv
