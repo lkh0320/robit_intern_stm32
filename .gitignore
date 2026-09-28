@@ -16,6 +16,9 @@ Release/
 RemoteSystemsTempFiles/
 *.launch
 .settings/org.eclipse.cdt.core.prefs
+.settings/language.settings.xml
+# day_N 폴더 자체를 CubeIDE 가 프로젝트로 인식하며 생긴 파일
+/day_*/.project
 
 # ── CubeMX 내부 기록 / 백업 ───────────────────
 .mxproject
@@ -33,3 +36,4 @@ RemoteSystemsTempFiles/
 *.mp4
 *.mov
 *.mkv
+*.webm
